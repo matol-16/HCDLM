@@ -1,0 +1,39 @@
+{
+  "format": "gpt2id_bpe16",
+  "root": "datasets/openwebtext_flm_gpt2_trainm100k",
+  "source_flat_cache_path": "datasets/openwebtext_flm_gpt2_trainm100k/cache_train_gpt2_flat_eos1.uint16",
+  "source_flat_meta_path": "datasets/openwebtext_flm_gpt2_trainm100k/cache_train_gpt2_flat_eos1.meta.json",
+  "source_flat_hf_split": "train[:-100000]",
+  "tokenizer_name_gpt2": "gpt2",
+  "vocab_size_gpt2": 50257,
+  "bos_token_id_gpt2": 50256,
+  "eos_token_id_gpt2": 50256,
+  "base_seq_len_tokens": 1024,
+  "content_len_tokens": 1022,
+  "base_char_offset": 983040,
+  "target_code_vocab_size": 65536,
+  "actual_code_vocab_size": 65536,
+  "special_tokens": [
+    "[PAD]",
+    "[UNK]",
+    "[EOSEQ]"
+  ],
+  "pad_id": 0,
+  "unk_id": 1,
+  "eoseq_id": 2,
+  "train_strings_path": "datasets/openwebtext_flm_gpt2_trainm100k/tokenizer_gpt2id_bpe16_65536_base1024.train_strings.txt",
+  "num_training_sequences": 50000,
+  "encoding_length_stats": {
+    "num_sequences_scanned": 50000,
+    "encoded_len_min": 68,
+    "encoded_len_mean": 727.73552,
+    "encoded_len_max": 1024,
+    "encoded_len_p50": 724,
+    "encoded_len_p90": 785,
+    "encoded_len_p95": 812,
+    "encoded_len_p99": 895,
+    "encoded_len_p999": 986
+  },
+  "recommended_code_seq_len_tokens": 1025,
+  "bits_per_code_token": 16
+}

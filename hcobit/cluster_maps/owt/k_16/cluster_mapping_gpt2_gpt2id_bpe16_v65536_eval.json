@@ -1,0 +1,714 @@
+{
+  "clustering_quality": {
+    "vocab_size": 65532,
+    "tokens_with_vector": 65532,
+    "n_clusters": 15,
+    "inertia": 50568.457,
+    "non_empty_clusters": 15,
+    "cluster_size_min": 2279,
+    "cluster_size_mean": 4368.8,
+    "cluster_size_max": 7671,
+    "occupancy_balance": 0.8573,
+    "silhouette": 0.0572,
+    "davies_bouldin": 3.4057,
+    "calinski_harabasz": 1300.24,
+    "example_clusters": [
+      {
+        "cluster_id": 6,
+        "size": 7671,
+        "example_tokens": [
+          "\"",
+          "'",
+          "(",
+          ")",
+          "-",
+          "/",
+          "<",
+          "=",
+          ">",
+          "[",
+          "\\",
+          "]",
+          "_",
+          "`",
+          "s",
+          "{",
+          "}",
+          "\ufffd",
+          "\ufffd",
+          "\ufffd"
+        ]
+      },
+      {
+        "cluster_id": 3,
+        "size": 7036,
+        "example_tokens": [
+          "\b",
+          "In",
+          "It",
+          "This",
+          "Un",
+          "Re",
+          "You",
+          "Com",
+          "New",
+          "Pro",
+          "An",
+          "As",
+          "For",
+          "Is",
+          "Ad",
+          "Sp",
+          "Be",
+          "How",
+          "No",
+          "Ind"
+        ]
+      },
+      {
+        "cluster_id": 7,
+        "size": 5823,
+        "example_tokens": [
+          "a",
+          "b",
+          "c",
+          "d",
+          "e",
+          "f",
+          "g",
+          "h",
+          "j",
+          "k",
+          "l",
+          "m",
+          "n",
+          "p",
+          "r",
+          "t",
+          "v",
+          "w",
+          "x",
+          "y"
+        ]
+      },
+      {
+        "cluster_id": 11,
+        "size": 5238,
+        "example_tokens": [
+          "a",
+          "the",
+          "an",
+          "of",
+          "in",
+          "on",
+          "for",
+          "with",
+          "at",
+          "The",
+          "by",
+          "from",
+          "this",
+          "The",
+          "his",
+          "all",
+          "their",
+          "more",
+          "one",
+          "your"
+        ]
+      },
+      {
+        "cluster_id": 8,
+        "size": 4982,
+        "example_tokens": [
+          "\ufffd",
+          "\ufffd",
+          "\u0015",
+          "t",
+          "s",
+          "w",
+          "o",
+          "c",
+          "b",
+          "m",
+          "d",
+          "h",
+          "l",
+          "g",
+          "y",
+          "su",
+          "sh",
+          "pl",
+          "k"
+        ]
+      },
+      {
+        "cluster_id": 14,
+        "size": 4637,
+        "example_tokens": [
+          "o",
+          "at",
+          "it",
+          "is",
+          "or",
+          "ou",
+          "al",
+          "ar",
+          "ic",
+          "as",
+          "ion",
+          "om",
+          "ent",
+          "id",
+          "ot",
+          "ut",
+          "et",
+          "im",
+          "ow",
+          "ay"
+        ]
+      },
+      {
+        "cluster_id": 10,
+        "size": 4543,
+        "example_tokens": [
+          "\ufffd",
+          "he",
+          "R",
+          "de",
+          "L",
+          "O",
+          "St",
+          "Th",
+          "Ch",
+          "she",
+          "He",
+          "him",
+          "Tr",
+          "Wh",
+          "Se",
+          "Le",
+          "Cl",
+          "Americ",
+          "De",
+          "Bl"
+        ]
+      },
+      {
+        "cluster_id": 12,
+        "size": 4223,
+        "example_tokens": [
+          "to",
+          "be",
+          "I",
+          "is",
+          "that",
+          "'s",
+          "it",
+          "you",
+          "as",
+          "we",
+          "are",
+          "not",
+          "have",
+          "can",
+          "do",
+          "go",
+          "has",
+          "'t",
+          "will",
+          "they"
+        ]
+      },
+      {
+        "cluster_id": 2,
+        "size": 3725,
+        "example_tokens": [
+          "ed",
+          "was",
+          "said",
+          "had",
+          "been",
+          "did",
+          "set",
+          "made",
+          "used",
+          "found",
+          "run",
+          "read",
+          "met",
+          "says",
+          "put",
+          "using",
+          "told",
+          "left",
+          "got",
+          "didn"
+        ]
+      },
+      {
+        "cluster_id": 13,
+        "size": 3501,
+        "example_tokens": [
+          "i",
+          "q",
+          "u",
+          "\ufffd",
+          "\ufffd",
+          "\ufffd",
+          "\ufffd",
+          "\ufffd",
+          "\ufffd",
+          "\ufffd",
+          "\ufffd",
+          "\ufffd",
+          "\ufffd",
+          "\ufffd",
+          "\ufffd",
+          "\ufffd",
+          "\ufffd",
+          "\ufffd",
+          "\ufffd",
+          "\ufffd"
+        ]
+      },
+      {
+        "cluster_id": 1,
+        "size": 3231,
+        "example_tokens": [
+          "\ufffd",
+          "\ufffd",
+          "f",
+          "th",
+          "n",
+          "re",
+          "e",
+          "u",
+          "st",
+          "wh",
+          "con",
+          "r",
+          "se",
+          "pro",
+          "ha",
+          "com",
+          "ex",
+          "v",
+          "ch",
+          "le"
+        ]
+      },
+      {
+        "cluster_id": 4,
+        "size": 3216,
+        "example_tokens": [
+          "#",
+          "$",
+          "%",
+          "+",
+          "0",
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8",
+          "9",
+          "\ufffd",
+          "\ufffd",
+          "\ufffd",
+          "\ufffd",
+          "\ufffd",
+          "p"
+        ]
+      },
+      {
+        "cluster_id": 5,
+        "size": 2877,
+        "example_tokens": [
+          "&",
+          "A",
+          "B",
+          "C",
+          "D",
+          "E",
+          "F",
+          "G",
+          "H",
+          "I",
+          "J",
+          "K",
+          "L",
+          "M",
+          "N",
+          "O",
+          "P",
+          "Q",
+          "R",
+          "S"
+        ]
+      },
+      {
+        "cluster_id": 0,
+        "size": 2550,
+        "example_tokens": [
+          "!",
+          "*",
+          ".",
+          ":",
+          "?",
+          "@",
+          "^",
+          "|",
+          "~",
+          "\ufffd",
+          "--",
+          "..",
+          ".\"",
+          "----",
+          ").",
+          ".",
+          "|",
+          "\u2014",
+          "..."
+        ]
+      },
+      {
+        "cluster_id": 9,
+        "size": 2279,
+        "example_tokens": [
+          ",",
+          ";",
+          "and",
+          "or",
+          "but",
+          "-",
+          ",\"",
+          "when",
+          "after",
+          "because",
+          "\u2013",
+          "where",
+          "),",
+          ",",
+          "And",
+          "\u2014",
+          "before",
+          "while",
+          "since",
+          "&"
+        ]
+      }
+    ],
+    "type_occupancy_entropy": 3.8216,
+    "type_occupancy_entropy_max": 3.9069,
+    "type_occupancy_entropy_normalized": 0.9782
+  },
+  "special_cluster": {
+    "reserved_id": 15,
+    "n_semantic_clusters": 15,
+    "special_token_ids": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "note": "specials excluded from the k-means fit; clustering_quality covers the semantic clusters only",
+    "reserved_id_before_rebalance": 15
+  },
+  "frequency_report": {
+    "tokens_scanned": 35534738,
+    "examples_scanned": 48828,
+    "n_clusters": 16,
+    "clusters_used": 15,
+    "entropy_bits": 3.6147,
+    "entropy_max_bits": 4.0,
+    "entropy_normalized": 0.9037,
+    "type_occupancy_entropy": 3.8223,
+    "type_occupancy_entropy_max": 4.0,
+    "type_occupancy_entropy_normalized": 0.9556,
+    "all_clusters": [
+      {
+        "cluster_id": 11,
+        "count": 5852297,
+        "pct": 16.4692,
+        "example_tokens": [
+          "the",
+          "of",
+          "in",
+          "a",
+          "for",
+          "of the",
+          "in the",
+          "with",
+          "by",
+          "on"
+        ]
+      },
+      {
+        "cluster_id": 6,
+        "count": 5570077,
+        "pct": 15.675,
+        "example_tokens": [
+          "-",
+          "<|endoftext|>",
+          "\u2019s",
+          "(",
+          ")",
+          "\u201c",
+          "\u201d",
+          "/",
+          "\"",
+          "s"
+        ]
+      },
+      {
+        "cluster_id": 12,
+        "count": 4630691,
+        "pct": 13.0314,
+        "example_tokens": [
+          "to",
+          "that",
+          "is",
+          "'s",
+          "are",
+          "as",
+          "it",
+          "were",
+          "has",
+          "have"
+        ]
+      },
+      {
+        "cluster_id": 9,
+        "count": 2824466,
+        "pct": 7.9485,
+        "example_tokens": [
+          ",",
+          "and",
+          ", the",
+          ", and",
+          "or",
+          ", a",
+          ", but",
+          "\u2013",
+          "-",
+          ";"
+        ]
+      },
+      {
+        "cluster_id": 0,
+        "count": 2347854,
+        "pct": 6.6072,
+        "example_tokens": [
+          ".",
+          ".",
+          ":",
+          ". The",
+          ".\n\nThe",
+          ".<|endoftext|>",
+          ".\u201d",
+          ". He",
+          "?"
+        ]
+      },
+      {
+        "cluster_id": 2,
+        "count": 2208133,
+        "pct": 6.214,
+        "example_tokens": [
+          "was",
+          "had",
+          "said",
+          "ed",
+          "has been",
+          "made",
+          "did",
+          "left",
+          "says",
+          "called"
+        ]
+      },
+      {
+        "cluster_id": 8,
+        "count": 1935246,
+        "pct": 5.4461,
+        "example_tokens": [
+          "back",
+          "off",
+          "down",
+          "home",
+          "use",
+          "power",
+          "water",
+          "line",
+          "side",
+          "m"
+        ]
+      },
+      {
+        "cluster_id": 7,
+        "count": 1713769,
+        "pct": 4.8228,
+        "example_tokens": [
+          "a",
+          "y",
+          "er",
+          "ly",
+          "ers",
+          "in",
+          "en",
+          "es",
+          "e",
+          "on"
+        ]
+      },
+      {
+        "cluster_id": 4,
+        "count": 1673219,
+        "pct": 4.7087,
+        "example_tokens": [
+          "two",
+          "2",
+          "1",
+          "3",
+          "4",
+          "three",
+          "5",
+          "$",
+          "10",
+          "2"
+        ]
+      },
+      {
+        "cluster_id": 3,
+        "count": 1489547,
+        "pct": 4.1918,
+        "example_tokens": [
+          "National",
+          "State",
+          "In",
+          "House",
+          "New",
+          "News",
+          "City",
+          "Google",
+          "New York",
+          "University"
+        ]
+      },
+      {
+        "cluster_id": 14,
+        "count": 1451881,
+        "pct": 4.0858,
+        "example_tokens": [
+          "o",
+          "al",
+          "is",
+          "as",
+          "or",
+          "ar",
+          "ic",
+          "ist",
+          "os",
+          "at"
+        ]
+      },
+      {
+        "cluster_id": 10,
+        "count": 1297648,
+        "pct": 3.6518,
+        "example_tokens": [
+          "he",
+          "him",
+          "she",
+          "R",
+          "L",
+          "Trump",
+          "de",
+          "John",
+          "O",
+          "St"
+        ]
+      },
+      {
+        "cluster_id": 13,
+        "count": 1001912,
+        "pct": 2.8195,
+        "example_tokens": [
+          "i",
+          "an",
+          "K",
+          "u",
+          "world",
+          "country",
+          "military",
+          "countries",
+          "Z",
+          "ak"
+        ]
+      },
+      {
+        "cluster_id": 5,
+        "count": 901139,
+        "pct": 2.5359,
+        "example_tokens": [
+          "B",
+          "A",
+          "D",
+          "S",
+          "C",
+          "T",
+          "P",
+          "G",
+          "M",
+          "F"
+        ]
+      },
+      {
+        "cluster_id": 1,
+        "count": 636859,
+        "pct": 1.7922,
+        "example_tokens": [
+          "man",
+          "f",
+          "n",
+          "music",
+          "v",
+          "r",
+          "e",
+          "function",
+          "re",
+          "st"
+        ]
+      },
+      {
+        "cluster_id": 15,
+        "count": 0,
+        "pct": 0.0,
+        "example_tokens": []
+      }
+    ]
+  },
+  "rebalancing": {
+    "freq_source": "token-frequency (incl. PAD/EOSEQ; realized bitstream)",
+    "n_swaps": 35,
+    "entropy_before": 3.7537,
+    "entropy_after": 3.9886,
+    "entropy_max": 4.0,
+    "p_per_bit_before": [
+      0.5777,
+      0.681,
+      0.6282,
+      0.6692
+    ],
+    "p_per_bit_after": [
+      0.5203,
+      0.5398,
+      0.5152,
+      0.5415
+    ]
+  }
+}

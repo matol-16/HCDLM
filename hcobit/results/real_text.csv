@@ -1,0 +1,9 @@
+dataset,arm,entropy,gen_ppl
+lm1b,cobit,4.34346,53.139
+lm1b,cobit_snoise1.05,4.34346,53.139
+lm1b,hcobit,4.34346,53.139
+lm1b,hcobit_pms,4.34346,53.139
+owt,cobit,5.46623,14.872
+owt,cobit_snoise1.05,5.46623,14.872
+owt,hcobit,5.46623,14.872
+owt,hcobit_pms,5.46623,14.872

@@ -1,0 +1,20 @@
+# Versions used for the paper (Python 3.11, CUDA 12.1). Install torch first:
+#   pip install torch==2.4.1 --index-url https://download.pytorch.org/whl/cu121
+torch==2.4.1
+numpy
+scipy
+ml_collections>=1.0
+transformers==4.49.0
+tokenizers==0.21.4
+datasets
+huggingface_hub
+filelock
+tqdm
+mauve-text==0.4.0
+faiss-cpu
+scikit-learn==1.9.0  # also builds the cluster maps (k-means)
+matplotlib
+# data preparation (LM1B parquet)
+pyarrow
+# optional logging
+# wandb
